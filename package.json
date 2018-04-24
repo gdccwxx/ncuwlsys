@@ -1,0 +1,33 @@
+{
+  "name": "ncuwljxzx2018",
+  "version": "1.0.0",
+  "description": "ncuwljxzx2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadxq/ncuwljxzx2018.git"
+  },
+  "author": "vadxq",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "jsonwebtoken": "^7.4.3",
+    "kcors": "^2.2.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.2.2",
+    "koa-logger": "^3.0.1",
+    "koa-router": "^7.2.1",
+    "koa2-restful": "^0.1.0",
+    "mongoose": "^4.11.8",
+    "nodemailer": "^4.6.4"
+  },
+  "bugs": {
+    "url": "https://github.com/vadxq/ncuwljxzx2018/issues"
+  },
+  "homepage": "https://github.com/vadxq/ncuwljxzx2018#readme"
+}

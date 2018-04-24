@@ -1,0 +1,49 @@
+.swiper-left, .swiper-right {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.swiper-left {
+    left: 0;
+    right: auto;
+}
+
+.swiper-right {
+    right: 0;
+    left: auto;
+}
+
+.swiper-left > span, .swiper-right > span {
+    margin-top: 100%;
+}
+
+.swiper {
+    position: relative !important;
+}
+
+.img-tab {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid#fff;
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.img-tab:not(:last-child) {
+    margin-right: 5px;
+}
+
+.tab-active {
+    background-color: #fff;
+}
